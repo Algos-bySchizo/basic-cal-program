@@ -1,3 +1,4 @@
+import os
 while True:
     print("Simple Calculator")
     num1 = int(input("Enter first number: "))
@@ -18,3 +19,8 @@ while True:
                 print("Quotient:", num1 / num2)
             else:        
                 print("Cannot divide by zero")
+    again=input("Do you want to perform another calculation? (y/n): ")
+    if again.lower() != 'y':
+        print("Exiting the calculator")
+        break
+    os.system('clear')
