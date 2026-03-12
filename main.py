@@ -23,7 +23,7 @@ while True:
                 print("Quotient:", num1 / num2)
             else:        
                 print("Cannot divide by zero")
-         elif action == 'q':
+         elif action == 'Q':
             num3=int(input("Enter the third number: "))
             quadratic_formula(num1, num2, num3)
     again=input("Do you want to perform another calculation? (y/n): ")
